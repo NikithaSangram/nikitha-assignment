@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_nbs_email_invoice_sl">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>NBS Email Invoice Suitelet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/assignment3-conversion/nbs_email_invoice_sl.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_nbs_email_invoice_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>TESTING</status>
+      <title>NBS Email Invoice Suitelet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
